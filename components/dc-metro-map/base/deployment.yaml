@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/dcmetromap:latest
+      - image: quay.io/redhat-appstudio-qe/dcmetromap@sha256:fb60a08d73e3643c85e83a7220a0370c031cd018ada984a92502fd3afefff02f
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
